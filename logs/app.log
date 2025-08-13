@@ -1,0 +1,229 @@
+2025-08-03 14:10:04,416 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:10:04,550 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:10:04,551 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:10:04,553 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:10:05,358 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:10:05,384 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:10:05,390 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:15:15,631 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:15:17,156 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:15:17,161 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:15:31,059 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:31] "[31m[1mPOST /_blazor/disconnect HTTP/1.1[0m" 405 -
+2025-08-03 14:15:34,029 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:34] "GET / HTTP/1.1" 200 -
+2025-08-03 14:15:34,472 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:34] "GET /static/css/main.c13e02b0.css HTTP/1.1" 200 -
+2025-08-03 14:15:34,473 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:34] "GET /static/js/main.25f5bf9a.js HTTP/1.1" 200 -
+2025-08-03 14:15:34,720 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-03 14:15:54,776 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:54] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:15:55,123 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:55] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:15:55,139 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:15:55] "[36mGET /static/js/main.25f5bf9a.js HTTP/1.1[0m" 304 -
+2025-08-03 14:16:04,464 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:16:05,667 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:16:05,678 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:16:41,227 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:16:41,872 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:16:41,877 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:17:27,387 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:17:27,991 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:17:28,007 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:17:28,010 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:18:06,788 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:18:06,819 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:18:06,819 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:18:06,819 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:18:07,295 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:18:07,311 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:18:07,326 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:18:14,602 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:18:14] "GET / HTTP/1.1" 200 -
+2025-08-03 14:18:14,623 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:18:14] "GET /static/js/main.25f5bf9a.js HTTP/1.1" 200 -
+2025-08-03 14:18:14,633 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:18:14] "GET /static/css/main.c13e02b0.css HTTP/1.1" 200 -
+2025-08-03 14:18:15,081 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:18:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-03 14:29:21,439 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:29:21,524 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:29:21,524 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:29:21,527 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:29:22,016 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:29:22,037 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:29:22,041 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:29:38,593 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET / HTTP/1.1" 200 -
+2025-08-03 14:29:38,640 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET /static/css/main.c13e02b0.css HTTP/1.1" 200 -
+2025-08-03 14:29:38,778 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET /static/js/main.8b879eff.js HTTP/1.1" 200 -
+2025-08-03 14:29:38,933 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET /api/label/input-items HTTP/1.1" 200 -
+2025-08-03 14:29:38,962 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET /api/label/icon-items HTTP/1.1" 200 -
+2025-08-03 14:29:38,962 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET /api/label/barcode-items HTTP/1.1" 200 -
+2025-08-03 14:29:38,976 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:29:38] "GET /api/label/label-settings HTTP/1.1" 200 -
+2025-08-03 14:32:24,654 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:32:24,682 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:32:24,683 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:32:24,685 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:32:25,259 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:32:25,273 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:32:25,276 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:32:29,392 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:32:29,407 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:32:29,408 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:32:29,515 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "GET /api/label/input-items HTTP/1.1" 200 -
+2025-08-03 14:32:29,578 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "GET /api/label/icon-items HTTP/1.1" 200 -
+2025-08-03 14:32:29,593 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "GET /api/label/barcode-items HTTP/1.1" 200 -
+2025-08-03 14:32:29,601 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:32:29] "GET /api/label/label-settings HTTP/1.1" 200 -
+2025-08-03 14:38:33,104 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:38:33,165 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:38:33,165 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:38:33,165 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:38:33,714 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:38:33,714 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:38:33,730 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:38:37,532 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:38:37] "GET / HTTP/1.1" 200 -
+2025-08-03 14:38:37,567 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:38:37] "GET /static/css/main.c13e02b0.css HTTP/1.1" 200 -
+2025-08-03 14:38:37,686 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:38:37] "GET /static/js/main.8b879eff.js HTTP/1.1" 200 -
+2025-08-03 14:38:37,747 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.font_size
+[SQL: SELECT "InputInfo".text AS "InputInfo_text", "InputInfo".font_size AS "InputInfo_font_size", "InputInfo".font_family AS "InputInfo_font_family", "InputInfo".x_coordinate AS "InputInfo_x_coordinate", "InputInfo".y_coordinate AS "InputInfo_y_coordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:38:37,748 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:38:37] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:39:50,519 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:39:51,092 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:39:51,110 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:39:51,113 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:39:52,268 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:39:52,834 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:39:52,852 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:39:52,855 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:39:57,512 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:39:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:39:57,525 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:39:57] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:39:57,526 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:39:57] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:39:57,557 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.font_size
+[SQL: SELECT "InputInfo".text AS "InputInfo_text", "InputInfo".font_size AS "InputInfo_font_size", "InputInfo".font_family AS "InputInfo_font_family", "InputInfo".x_coordinate AS "InputInfo_x_coordinate", "InputInfo".y_coordinate AS "InputInfo_y_coordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:39:57,558 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:39:57] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:40:47,090 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:40:47,715 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:40:47,733 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:40:47,736 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:42:43,008 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:42:43,033 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:42:43,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:42:43,035 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:42:43,523 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:42:43,539 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:42:43,554 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:42:46,453 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:42:46] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:42:46,469 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:42:46] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:42:46,470 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:42:46] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:42:46,641 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:42:46,642 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:42:46] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:43:54,215 - root - ERROR - Database debug error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo") AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:43:54,216 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:43:54] "[35m[1mGET /api/debug/database HTTP/1.1[0m" 500 -
+2025-08-03 14:44:00,699 - root - ERROR - Database debug error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo") AS anon_1]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:44:00,700 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:44:00] "[35m[1mGET /api/debug/database HTTP/1.1[0m" 500 -
+2025-08-03 14:44:36,203 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:44:36,225 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.146:5000
+2025-08-03 14:44:36,225 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-03 14:44:36,225 - werkzeug - INFO -  * Restarting with stat
+2025-08-03 14:44:36,696 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-03 14:44:36,713 - werkzeug - WARNING -  * Debugger is active!
+2025-08-03 14:44:36,713 - werkzeug - INFO -  * Debugger PIN: 308-452-511
+2025-08-03 14:44:41,802 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:44:41] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:44:41,816 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:44:41] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:44:41,817 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:44:41] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:44:41,852 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:44:41,853 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:44:41] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:48:04,773 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:04] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:48:04,784 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:04] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:48:04,790 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:04] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:48:04,822 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:48:04,823 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:04] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:48:32,972 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:48:32,995 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:32] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:48:32,996 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:32] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:48:33,013 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:48:33,014 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:48:33] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:49:14,992 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:14] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:49:15,007 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:15] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:49:15,007 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:15] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:49:15,023 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:49:15,024 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:15] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:49:34,781 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:34] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:49:34,787 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:34] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:49:34,787 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:34] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:49:34,804 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:49:34,804 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:49:34] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-03 14:50:24,316 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:50:24] "[36mGET / HTTP/1.1[0m" 304 -
+2025-08-03 14:50:24,325 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:50:24] "[36mGET /static/js/main.8b879eff.js HTTP/1.1[0m" 304 -
+2025-08-03 14:50:24,326 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:50:24] "[36mGET /static/css/main.c13e02b0.css HTTP/1.1[0m" 304 -
+2025-08-03 14:50:24,340 - root - ERROR - Get input items error: (sqlite3.OperationalError) no such column: InputInfo.created_at
+[SQL: SELECT "InputInfo"."Text" AS "InputInfo_Text", "InputInfo"."FontSize" AS "InputInfo_FontSize", "InputInfo"."FontFamily" AS "InputInfo_FontFamily", "InputInfo"."XCoordinate" AS "InputInfo_XCoordinate", "InputInfo"."YCoordinate" AS "InputInfo_YCoordinate", "InputInfo".id AS "InputInfo_id", "InputInfo".created_at AS "InputInfo_created_at", "InputInfo".updated_at AS "InputInfo_updated_at" 
+FROM "InputInfo"]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-03 14:50:24,341 - werkzeug - INFO - 127.0.0.1 - - [03/Aug/2025 14:50:24] "[35m[1mGET /api/label/input-items HTTP/1.1[0m" 500 -
+2025-08-13 15:30:38,684 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-13 15:30:38,731 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.119:5000
+2025-08-13 15:30:38,731 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-13 15:30:38,734 - werkzeug - INFO -  * Restarting with stat
+2025-08-13 15:30:39,547 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-13 15:30:39,571 - werkzeug - WARNING -  * Debugger is active!
+2025-08-13 15:30:39,577 - werkzeug - INFO -  * Debugger PIN: 741-506-732
+2025-08-13 15:33:37,966 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-13 15:33:38,004 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.119:5000
+2025-08-13 15:33:38,004 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-13 15:33:38,007 - werkzeug - INFO -  * Restarting with stat
+2025-08-13 15:33:38,808 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-13 15:33:38,830 - werkzeug - WARNING -  * Debugger is active!
+2025-08-13 15:33:38,835 - werkzeug - INFO -  * Debugger PIN: 741-506-732
+2025-08-13 15:35:43,465 - werkzeug - INFO -  * Restarting with stat
+2025-08-13 15:35:44,260 - tsc_printer_service - ERROR - TSCLIB.dll yüklenemedi: Could not find module 'TSCLIB.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-08-13 15:35:44,284 - werkzeug - WARNING -  * Debugger is active!
+2025-08-13 15:35:44,288 - werkzeug - INFO -  * Debugger PIN: 741-506-732
