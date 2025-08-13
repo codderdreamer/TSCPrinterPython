@@ -12,15 +12,30 @@ from tsc_printer_service import TSCPrinterService
 from label_bitmap_generator import LabelBitmapGenerator
 from dto import UserInputModel, UserInputModelSchema
 
-# Logging ayarları
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('logs/app.log'),
-        logging.StreamHandler()
-    ]
-)
+# Logging ayarları - Türkçe karakterleri destekleyecek şekilde
+import sys
+
+# Logs dizinini oluştur
+os.makedirs('logs', exist_ok=True)
+
+# File handler için UTF-8 encoding
+file_handler = logging.FileHandler('logs/app.log', encoding='utf-8')
+file_handler.setLevel(logging.INFO)
+
+# Stream handler için UTF-8 encoding
+stream_handler = logging.StreamHandler(sys.stdout)
+stream_handler.setLevel(logging.INFO)
+
+# Formatter
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+stream_handler.setFormatter(formatter)
+
+# Root logger'ı yapılandır
+root_logger = logging.getLogger()
+root_logger.setLevel(logging.INFO)
+root_logger.addHandler(file_handler)
+root_logger.addHandler(stream_handler)
 
 app = Flask(__name__, static_folder='frontend/build', static_url_path='')
 CORS(app)

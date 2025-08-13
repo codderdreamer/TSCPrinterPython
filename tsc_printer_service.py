@@ -5,7 +5,16 @@ import logging
 
 class TSCPrinterService:
     def __init__(self):
+        # Logger'ı UTF-8 encoding ile yapılandır
         self.logger = logging.getLogger(__name__)
+        
+        # Eğer handler yoksa ekle
+        if not self.logger.handlers:
+            import sys
+            handler = logging.StreamHandler(sys.stdout)
+            handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+            self.logger.addHandler(handler)
+            self.logger.setLevel(logging.INFO)
         
         # TSCLIB.dll fonksiyonlarını yükle
         try:
