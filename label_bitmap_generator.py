@@ -3,6 +3,7 @@ import qrcode
 from typing import List, Dict, Any, Tuple
 import logging
 import os
+import sys
 
 class LabelBitmapGenerator:
     def __init__(self):
