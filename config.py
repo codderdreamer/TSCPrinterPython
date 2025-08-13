@@ -28,7 +28,7 @@ class Config:
         'tear_off': os.getenv('TEAR_OFF', 'True').lower() == 'true',
         'left_shift': float(os.getenv('LEFT_SHIFT', '2.032')),
         'right_shift': float(os.getenv('RIGHT_SHIFT', '2.032')),
-        'is_app_development_mode': os.getenv('IS_APP_DEVELOPMENT_MODE', 'True').lower() == 'true'
+        'is_app_development_mode': os.getenv('IS_APP_DEVELOPMENT_MODE', 'False').lower() == 'true'
     }
     
     # API ayarları

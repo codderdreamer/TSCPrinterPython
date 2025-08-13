@@ -556,6 +556,7 @@ def generate_and_print_bluetooth_label(user_input: UserInputModel, temp_path: st
             return False
         
         # Yazdır (geliştirme modunda değilse)
+        is_app_development_mode = Config.PRINTER_SETTINGS['is_app_development_mode']
         if not Config.PRINTER_SETTINGS['is_app_development_mode']:
             success = tsc_printer_service.print_label(
                 temp_path, Config.PRINTER_SETTINGS, is_bluetooth_label=True
