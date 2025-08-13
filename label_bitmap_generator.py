@@ -97,14 +97,24 @@ class LabelBitmapGenerator:
             font_size = int(barcode.get('text_font_size', 12) * self.mm_to_inches * dpi)
             font_family = barcode.get('text_font_family', 'Arial')
             
-            # Font oluştur (basit font kullan)
+            # Font oluştur - Türkçe karakterleri destekleyen font kullan
+            font = None
             try:
-                font = ImageFont.truetype(font_family, font_size)
+                font = ImageFont.truetype("arial.ttf", font_size)
             except:
-                font = ImageFont.load_default()
+                try:
+                    font = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", font_size)
+                except:
+                    try:
+                        font = ImageFont.truetype("C:/Windows/Fonts/calibri.ttf", font_size)
+                    except:
+                        font = ImageFont.load_default()
             
             text = barcode['data']
-            text_bbox = draw.textbbox((0, 0), text, font=font)
+            # Türkçe karakterleri güvenli hale getir
+            safe_text = self._sanitize_text(text)
+            
+            text_bbox = draw.textbbox((0, 0), safe_text, font=font)
             text_width = text_bbox[2] - text_bbox[0]
             text_height = text_bbox[3] - text_bbox[1]
             
@@ -117,7 +127,7 @@ class LabelBitmapGenerator:
             text_x = x_coord
             text_y = y_coord + barcode_height + 5
             
-            draw.text((text_x, text_y), text, fill='black', font=font)
+            draw.text((text_x, text_y), safe_text, fill='black', font=font)
             
         except Exception as e:
             self.logger.error(f"Barkod metni çizme sırasında hata: {e}")
@@ -151,21 +161,60 @@ class LabelBitmapGenerator:
             font_size = int(text.get('font_size', 12) * self.mm_to_inches * dpi)
             font_family = text.get('font_family', 'Arial')
             
-            # Font oluştur
+            # Font oluştur - Türkçe karakterleri destekleyen font kullan
+            font = None
             try:
-                font = ImageFont.truetype(font_family, font_size)
+                # Önce Arial font'unu dene
+                font = ImageFont.truetype("arial.ttf", font_size)
             except:
-                font = ImageFont.load_default()
+                try:
+                    # DejaVu Sans font'unu dene (Linux'ta yaygın)
+                    font = ImageFont.truetype("DejaVuSans.ttf", font_size)
+                except:
+                    try:
+                        # Windows'ta yaygın olan font'ları dene
+                        font = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", font_size)
+                    except:
+                        try:
+                            font = ImageFont.truetype("C:/Windows/Fonts/calibri.ttf", font_size)
+                        except:
+                            # Hiçbiri bulunamazsa default font kullan
+                            font = ImageFont.load_default()
             
             # Pozisyonu hesapla
             x_coord = int(text['x_coordinate'] * self.mm_to_inches * dpi)
             y_coord = int(text['y_coordinate'] * self.mm_to_inches * dpi)
             
+            # Türkçe karakterleri güvenli hale getir
+            safe_text = self._sanitize_text(text['content'])
+            
             # Metni çiz
-            draw.text((x_coord, y_coord), text['content'], fill='black', font=font)
+            draw.text((x_coord, y_coord), safe_text, fill='black', font=font)
             
         except Exception as e:
             self.logger.error(f"Metin çizme sırasında hata: {e}")
+    
+    def _sanitize_text(self, text: str) -> str:
+        """Türkçe karakterleri güvenli hale getir"""
+        try:
+            # Türkçe karakterleri ASCII karşılıklarıyla değiştir
+            turkish_chars = {
+                'ç': 'c', 'Ç': 'C',
+                'ğ': 'g', 'Ğ': 'G',
+                'ı': 'i', 'I': 'I',
+                'ö': 'o', 'Ö': 'O',
+                'ş': 's', 'Ş': 'S',
+                'ü': 'u', 'Ü': 'U'
+            }
+            
+            sanitized_text = text
+            for turkish_char, ascii_char in turkish_chars.items():
+                sanitized_text = sanitized_text.replace(turkish_char, ascii_char)
+            
+            return sanitized_text
+        except Exception as e:
+            self.logger.warning(f"Metin temizleme sırasında hata: {e}")
+            return text
     
     def _convert_to_monochrome(self, image: Image.Image) -> Image.Image:
         """RGB bitmap'i monokrom bitmap'e dönüştür"""
