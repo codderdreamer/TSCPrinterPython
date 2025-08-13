@@ -173,7 +173,7 @@ frontend/build/
 frontend/dist/
 
 # Database files
-*.db
+# *.db
 *.sqlite
 *.sqlite3
 
